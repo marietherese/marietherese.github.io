@@ -257,3 +257,23 @@
       }
     }
   }
+
+  /**
+   * Homepage layout
+   */
+
+   .homepost {
+     @extend .post;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+   }
+
+   .homebox {
+    padding: $spacing-unit;
+    margin: $spacing-unit;
+    border-radius: 30px;
+    border: solid;
+
+   }
+
