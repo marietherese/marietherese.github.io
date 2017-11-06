@@ -184,6 +184,8 @@
   }
   
   .post-list {
+    padding: 20px;
+    border-radius: 30px;
     margin-left: 0;
     list-style: none;
   
@@ -207,6 +209,13 @@
   /**
    * Posts
    */
+
+   .post {
+    background-color: $post-color;
+    padding: 20px;
+    border-radius: 30px;
+
+   }
   .post-header {
     margin-bottom: $spacing-unit;
   }
