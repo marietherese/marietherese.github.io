@@ -5,17 +5,8 @@ layout: default
 <div class="homepost">
 
   <div class="homebox">
-      <p>Innehåll</p>
-  </div>
-
-  <div class="homebox">
-      <p>Innehåll2</p>
-  </div>
-
-  <div class="homebox">
-
-  <h1 class="page-heading">Latest blog posts</h1>  
-  <ul class="post-list">
+    <h1 class="page-heading">Latest blog posts</h1>  
+    <ul class="post-list">
       {% for post in site.posts limit:2 %}
         <li>
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
@@ -28,7 +19,14 @@ layout: default
         </li>
       {% endfor %}
     </ul>
-  
-</div>
+  </div>
+
+    <div class="homebox">
+      <p>Innehåll</p>
+    </div>
+
+  <div class="homebox">
+      <p>Innehåll2</p>
+ </div>
 
 </div>
