@@ -2,10 +2,14 @@
  * Site header
  */
  .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: $spacing-unit * 1.865;
-  
+    .wrapper {
+    background-color: $background-color;
+    padding: 20px;
+    border-radius: 30px;
+    }
+       
+      
     // Positioning context for the mobile navigation icon
     position: relative;
   }
@@ -17,6 +21,8 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+
+    
   
     &,
     &:visited {
@@ -105,9 +111,18 @@
   /**
    * Site footer
    */
+
+   .site-footer {
+     .wrapper {
+    background-color: $background-color;
+    padding: 20px;
+    border-radius: 30px;
+     }
+   }
+
   .site-footer {
-    border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+
   }
   
   .footer-heading {
@@ -212,8 +227,10 @@
 
    .post {
     background-color: $post-color;
-    padding: 20px;
+    padding: $spacing-unit;
     border-radius: 30px;
+    margin-left: -20px;
+    margin-right: -20px;
 
    }
   .post-header {

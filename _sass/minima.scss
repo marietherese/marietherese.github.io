@@ -3,19 +3,19 @@
 // Define defaults for each variable.
 
 $base-font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif !default;
-$base-font-size:   16px !default;
-$base-font-weight: 400 !default;
+$base-font-size:   14px !default;
+$base-font-weight: 500 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
 
-$text-color:       #111 !default;
-$background-color: #D3FFC4 !default;
+$text-color:       rgb(0, 0, 0) !default;
+$background-color: rgba(255, 255, 255, 0.6) !default;
 $post-color: #ffffff !default;
 $brand-color:      #B23DAB !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #272727 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
