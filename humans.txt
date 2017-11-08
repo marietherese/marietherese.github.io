@@ -1,0 +1,17 @@
+    /* TEAM */
+
+                                
+    Developer: Therese Forsberg
+    Contact:  therese [at] marietherese.se                                   
+    Location: Piteå Sweden
+                                       
+    /* SITE */                     
+    Last update: 2017/11/08 
+    Language: English           
+    Doctype: HTML5
+    Software: Jekyll, Sass, Visual Studio Code, Markdown...
+       
+                            
+
+
+                    

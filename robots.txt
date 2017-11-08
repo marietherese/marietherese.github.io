@@ -1,0 +1,13 @@
+User-agent: webcrawler
+Disallow: /img/
+Disallow: /jekyll/
+Disallow: /assets/
+
+User-agent: DuckDuckBot
+Disallow: /img/
+Disallow: /jekyll/
+Disallow: /assets/
+
+
+User-agent: *
+Disallow: /
