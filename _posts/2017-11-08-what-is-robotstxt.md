@@ -5,7 +5,7 @@ date:   2017-11-08 10:20:59 +0100
 categories: jekyll update
 excerpt_separator: <!--more-->
 ---
-What is robots.txt and how did I make use of it in this site?
+## What is robots.txt and how did I make use of it in this site?
 
 Robots.txt is a file in the root of the site directory that have instructions for how to handle robots.
 Robots might be crawlers from search engines indexing your site. But robots are all type of automated programs that searches the web for different kinds of informatione and documents. Robotot that searches for email-adresses to spam for exemple. 

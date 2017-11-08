@@ -5,7 +5,7 @@ date:   2017-11-08 11:30:59 +0100
 categories: jekyll update
 excerpt_separator: <!--more-->
 ---
-What is Open Graph and how do you make use of it?
+## What is Open Graph and how do you make use of it?
 
 Open graph is a protocol for making links look nice and have functionality when being shared in social media. For example showing a image, being able to play a video or audio clip.
 
