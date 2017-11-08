@@ -11,4 +11,4 @@ So why learn webb development and programming? Well, for one thing I think many 
 
 I think that programming is an excelent tool to help reveal those stories as well as tell the stories. I think there is a lot of creative stuff to do in telling stories with the web as a medium. And I want to work with that - on the border between tech, art and journalism.
 
-In case there is some spare time, I still run my compamy, I make music with homemade electronic instruments and photograph stuff in nature. Thats how this journo-hacker wannabe rolls.
+In case there is some spare time, I still run my company, I make music with homemade electronic instruments and photograph stuff in nature. Thats how this journo-hacker wannabe rolls.

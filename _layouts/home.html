@@ -5,9 +5,9 @@ layout: default
 <div class="homepost">
 
   <div class="homebox-blog">
-    <h1 class="page-heading">Latest blog posts</h1>  
+    <h1 class="page-heading">Latest blog post</h1>  
     <ul class="post-list">
-      {% for post in site.posts limit:2 %}
+      {% for post in site.posts limit:1 %}
         <li>
           {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
           <span class="post-meta">{{ post.date | date: date_format }}</span>
@@ -22,11 +22,14 @@ layout: default
   </div>
 
     <div class="homebox">
-      <img src="./img/me.jpg" alt="Ett ritat porträtt på mig själv">
-      <p>Innehåll</p>
+      <h1 class="page-heading">Who is this person?</h1>  
+      <img src="./img/me.jpg" alt="A portrait of me">
+      <p>I have been working as a freelance journalist for quite some time. I specialize in science, environment and nature since I have a master degree in both biology and science journalism. So why learn webb development and programming? Well, for one thing... </p>
+      <a href="./about">Read more...</a>
     </div>
 
   <div class="homebox">
+      <h1 class="page-heading">Super interesting stuff</h1>
       <p>Innehåll. Här ska jag ha något intressant eller kul att skriva kanske. Eller så blir det tråkigt. Det får vi se.</p>
  </div>
 

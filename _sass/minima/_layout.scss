@@ -293,15 +293,13 @@
     border-radius: 30px;
     border: solid 0.25px;
     border-radius: 30px;
-    max-width: 60%;
+    max-width: 100%;
      
 
     img {
       float: left;
-      max-width: 30%;
+      max-width: 40%;
       border-radius: 30px;
-      margin: 0px;
-      padding: 0px;
       }
 
    }
@@ -311,6 +309,10 @@
     margin: $spacing-unit / 2;
     padding: 10px;
     max-width: 40%;
+    
   }
 
-
+/** 404 not found */
+.container {
+  @extend .post;
+}
