@@ -275,6 +275,30 @@
     }
   }
 
+  .PageNavigation {
+    display: block;
+    width: auto;
+    overflow: hidden;
+    padding-top: 10px;
+    border: 0px;
+    border-top: 0.25px;
+    border-style: solid;
+    border-color: $brand-color;
+
+    a {
+      display: block;
+      width: 50%;
+      float: left;
+      margin: 1em 0;
+    }
+   .next {
+      float: right;
+      text-align: right;
+    }
+
+  }
+
+
   /**
    * Homepage layout
    */
