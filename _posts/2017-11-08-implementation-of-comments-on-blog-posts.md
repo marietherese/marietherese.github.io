@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "My thoughts on static site generators"
+title:  "Implementation of comments on blog posts"
 date:   2017-11-08 16:50:59 +0100
 categories: jekyll update
 excerpt_separator: <!--more-->
